@@ -1,7 +1,3 @@
-A seguir, um exemplo de arquivo README.md para o projeto de automatização de transferência de arquivos:
-
----
-
 # Automatização de Transferência de Arquivos com Python
 
 Este projeto visa automatizar a tarefa de buscar e transferir arquivos de uma pasta de origem (incluindo todas as subpastas) para uma pasta de destino, com base em critérios de extensão e data de modificação. O script é desenvolvido em Python e permite ao usuário especificar:
@@ -9,7 +5,7 @@ Este projeto visa automatizar a tarefa de buscar e transferir arquivos de uma pa
 - **Pasta de Origem:** Diretório onde os arquivos serão pesquisados (incluindo subpastas).
 - **Pasta de Destino:** Diretório para o qual os arquivos que atendam aos critérios serão copiados.
 - **Intervalo de Data:** Data inicial e data final para filtrar os arquivos com base na data de modificação.  
-  Os arquivos com extensões `.PA`, `.PA3`, `.TR` e `.TR3` que foram modificados dentro do período especificado serão copiados.
+  Os arquivos com extensões `.PA`, `.PA3`, `.TR` e `.TR3` que foram modificados dentro do período especificado serão copiados. Basta modificar o script para alterar as extensões desejadas pelo usuário.
 
 ## Funcionalidades
 
